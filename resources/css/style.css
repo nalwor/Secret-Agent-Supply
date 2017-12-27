@@ -1,0 +1,27 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+header {
+  background-color: black;
+  font-size: 1rem;
+  color: white;
+  display: flex-inline;
+  justify-content: space-between;
+  width: 100%;
+}
+header h2 {
+  width: 50%;
+}
+.main {
+  background-image: url(..\images\moto.png);
+  height: 25rem;
+}
+nav {
+  background-color: red;
+  align-items: center;
+}
+nav span {
+    display: inline;
+    text-align: center;
+}
