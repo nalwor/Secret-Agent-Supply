@@ -6,15 +6,21 @@ header {
   background-color: black;
   font-size: 1rem;
   color: white;
-  display: flex-inline;
-  justify-content: space-between;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* align-content:flex-start; */
   width: 100%;
+  /* padding: 0px 10px;
+  box-sizing: border-box; */
+}
+logo {
+  height: 1.5rem;
 }
 header h2 {
-  width: 50%;
 }
 .main {
-  background-image: url(..\images\moto.png);
+  background-image: url(../images/moto.png);
   height: 25rem;
 }
 nav {
